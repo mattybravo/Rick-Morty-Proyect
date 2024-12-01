@@ -1,25 +1,26 @@
-import Navegation from "../../components/ButtonsHome/Navegation/Navegation"
+import Navegation from "../../components/Navegation/Navegation"
 import "./Contact.css"
+import { Fragment } from "react"
 export default function Contact() {
     
-
-
-
 return(
 
-
-
-<div>
+<>
 <Navegation/>
+ <section className="container fondo-trasparente d-flex justify-content-center">
+  <h1 className="row d-flex justify-content-center">Contact</h1>
+  <h4 className="row d-flex justify-content-center">Leave us your information so we can contact you</h4>
 
-  <div className="container fondo-trasparente">
+  <form action="" className="col">
+              <label for="Name">Name</label>
+              <input type="text" id="Name" />
 
-    <h1 className="row">Contact</h1>
-    <h2 className="row">Leave us your information so we can contact you</h2>
+              <label for="Email">Email</label>
+              <input type="text" id="Email" />
 
-  </div>
-</div>
+  </form>
+ </section>
+</>
 )
-
 
 }
