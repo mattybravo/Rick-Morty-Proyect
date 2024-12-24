@@ -6,20 +6,36 @@ export default function Contact() {
 return(
 
 <>
-<Navegation/>
- <section className="container fondo-trasparente d-flex justify-content-center">
-  <h1 className="row d-flex justify-content-center">Contact</h1>
-  <h4 className="row d-flex justify-content-center">Leave us your information so we can contact you</h4>
+<nav>
+<Navegation pageName={"Contact"}/>
+ <div className="fondo-trasparente container-fluid">
+  <div className="row d-flex justify-content-center">
+  <h2 className="col-2 d-flex h2-contact mt-5">Contact</h2>
+  <h3 className="align-item-center d-flex justify-content-center subt-1">Leave us your information so we can contact you</h3>
+  </div>
 
-  <form action="" className="col">
-              <label for="Name">Name</label>
-              <input type="text" id="Name" />
+  <form class="form-contact row d-flex justify-content-center align-items-center">
+  <div class="col-md-4">
+    <label for="inputEmail4" className="form-label">Name</label>
+    <input type="email" className="form-control input-form" id="inputEmail4"/>
+  </div>
+  <div class="col-md-4">
+    <label for="inputPassword4" className="form-label">Email</label>
+    <input type="password" className="form-control input-form" id="inputPassword4"/>
+  </div>
+    <div className="row d-flex justify-content-center mt-3">
 
-              <label for="Email">Email</label>
-              <input type="text" id="Email" />
+        <label className="form-label col-9 ms-5" for="Messege">Messege</label>
+       
+  <textarea class="form-control text-area-contact d-flex justify-content-center" id="messege"></textarea>
+
+  <div className="boton-div col-11"><button className="btn-contact btn-form rounded-2 border border-0">Send</button></div>
+          
+    </div>
 
   </form>
- </section>
+ </div>
+ </nav>
 </>
 )
 

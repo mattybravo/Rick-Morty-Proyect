@@ -1,10 +1,95 @@
 .tarjeta{
 background-color: #223142;
-height: 438px;
+width: fit-content;
 margin: 8px;
 padding: 8px;
+height: 460px;
 }
 
-h2{
+.h2-card{
     color: #6eccaf;
+
+}
+
+
+.button-card{
+
+background-color:#6eccaf;
+color: #223142;
+
+}
+
+.tarjeta-oculta{
+background-color:  #223142;
+width: 370px; 
+height: fit-content;
+  
+}
+
+.p-info{
+    color: #f5f5f5;
+    font-size: 19px;
+    font-weight: 700 !important;
+}
+
+.h4-info{
+    color: #f5f5f5;
+    font-size: 19px;
+    font-weight: 700 !important;
+}
+
+.boton-info{
+    
+ padding: 7px;
+ width: 36px;   
+height: 36px;
+background-color: #6eccaf;
+}
+
+.div-tarjeta{
+width: 300px;
+margin-bottom: 5px;
+}
+
+
+.li:hover{
+color: #223142;
+background-color: #6eccaf;
+cursor: pointer;
+
+}
+
+/*MEDIA QUARYS*/
+
+@media(max-width:670px){
+
+
+ 
+.tarjeta{
+    padding: 8px;
+    align-items: start;
+    flex-direction: column;
+    height: 440px;
+    justify-content: start;
+    position: relative;
+    width: 310px;   
+
+}
+
+.tarjeta-oculta{
+    position: absolute;
+    z-index: 3;
+ margin-top: 100%;
+width: fit-content;
+
+}
+
+.bot{
+
+position: relative;
+left: 50px;
+top: 30px;
+
+}
+
 }

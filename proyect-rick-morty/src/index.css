@@ -1,10 +1,12 @@
 body{
 background-image: url(../public/rickymorty.jpg);
+background-size: cover;
+background-attachment: fixed;
 }
 
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Poppins", serif;
+  font-family:"Raleway", sans-serif;
 }

@@ -1,10 +1,99 @@
 .fondo-nav{
-    background-color: #344d67;
-
+ background-color: #344d67;
+ padding: 20px;
+position: sticky !important;
+top: 0%;
+z-index: 5 !important;
+height: 168px;
+width: 100%;
 }
 
-h1{
+.h1-nav{
     color: #6eccaf;
     padding: 40px 80px;
     font-size: 21px;
+    text-decoration: none;
 }
+
+.nav{
+    padding: 20px;
+}
+
+.container-ul{
+    gap: 16px;
+    padding: 25px 32px 25px 25px;
+
+}
+
+.item{
+   padding: 8px;
+    width: 87px; 
+    color: #6eccaf !important;
+}
+
+.item:hover{
+color: #344d67 !important;
+background-color: #6eccaf;
+
+
+}
+
+.hamburger{
+    display: none;
+    }
+
+
+/*MEDIA QUARYS*/
+
+@media (max-width: 1039px){
+.fondo-nav{
+    width: 100%;
+
+}
+
+}
+
+@media(max-width: 992px){
+
+.items-nav{
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fondo-nav{
+
+height: 280px;
+
+}
+
+.hamburger{
+    display: block;
+    
+}
+
+}
+@media(max-width:444px){
+
+.container-ul{
+
+    padding-top: 2px;
+    
+}
+
+
+@media(max-width: 378px){
+
+.container-ul{
+margin-bottom: 1px;
+    padding-top: 1px;    
+}
+
+}
+}
+
+
+
+
