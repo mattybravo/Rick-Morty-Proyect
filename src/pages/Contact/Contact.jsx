@@ -1,4 +1,4 @@
-import Navegation from "../../components/Navegation/navigation";
+import Navigation from "../../components/Navigation/Navigation";
 import "./contact.css";
 import { Fragment } from "react";
 export default function Contact() {
@@ -6,7 +6,7 @@ export default function Contact() {
 return(
 
 <>
-<Navegation pageName={"contact"}/>
+<Navigation pageName={"Contact"}/>
 
  <div className="fondo-trasparente container-fluid contact-page pt-5 padding-nav">
   <div className="row d-flex justify-content-center">

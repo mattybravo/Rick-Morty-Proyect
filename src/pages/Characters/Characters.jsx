@@ -1,10 +1,10 @@
-import Navegation from "../../components/Navegation/navigation";
-import Card from "../../components/Cards/card"
+import Navigation from "../../components/Navigation/Navigation";
+import Card from "../../components/Cards/Card"
 import { useState, useEffect, useContext } from "react"
-import Filter from "../../components/Filter/filter"
+import Filter from "../../components/Filter/Filter"
 import {charactersContext}  from '../../context';
 import { Fragment } from "react";
-import "./characters.css"
+import "./Characters.css"
 
 export default function Characters({pageName}) {
  let [data,setData]=useState([])
@@ -92,7 +92,7 @@ useEffect(()=>{
 
 return(
 <Fragment>
-<Navegation pageName={"Characters"}/>
+<Navigation pageName={"Characters"}/>
 
 <h2 className="container-fluid h2-filter mt-5">Filters</h2>
 <div className="container-full d-flex justify-content-center">

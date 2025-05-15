@@ -1,14 +1,14 @@
-import "./navigation.css"
+import "./Navigation.css";
 import { Link } from 'react-router-dom';
 
-export default function Navegation({pageName}) {
+export default function Navigation({pageName}) {
   return(
 <nav className="fondo-nav container-full navbar navbar-expand-lg w-100">
   <div className="container-fluid justify-content-between">
     <Link to="/" className="h1-nav row mx-3 mt-2">Rick & Morty</Link>
  
 <div>
-    <button class="hamburger btn" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false"><img src="./list.svg" alt="" /></button>
+    <button className="hamburger btn" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false"><img src="./list.svg" alt="" /></button>
 </div>
    <div id="menu" className="items-nav navbar-collapse collapse justify-content-end">
   <ul className="container-ul row nav navbar-nav">
