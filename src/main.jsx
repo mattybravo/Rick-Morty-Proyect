@@ -4,7 +4,6 @@ import './index.css'
 import RouterSite from './Router'
 import Navegation from './components/Navegation/navigation';
 
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
  <RouterSite/>

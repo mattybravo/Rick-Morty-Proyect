@@ -7,7 +7,7 @@ export default function RouterSite() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomeSection />} />
+        <Route path="/" element={<homeSection />} />
         <Route path="/Characters" element={<Characters />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
