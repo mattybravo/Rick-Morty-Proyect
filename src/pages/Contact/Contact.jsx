@@ -1,12 +1,12 @@
-import Navegation from "../../components/Navegation/Navegation"
-import "./Contact.css"
-import { Fragment } from "react"
+import Navegation from "../../components/Navegation/navegation";
+import "./contact.css";
+import { Fragment } from "react";
 export default function Contact() {
     
 return(
 
 <>
-<Navegation pageName={"Contact"}/>
+<Navegation pageName={"contact"}/>
 
  <div className="fondo-trasparente container-fluid contact-page pt-5 padding-nav">
   <div className="row d-flex justify-content-center">

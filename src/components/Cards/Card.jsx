@@ -1,6 +1,6 @@
-import "./Card.css"
+import "./card.css"
 import { Fragment,useState } from "react"
-export default function Card({personaje}) {
+export default function card({personaje}) {
 const [ocultar,setOcultar]=useState(true)
 
 

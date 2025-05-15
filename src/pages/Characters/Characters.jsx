@@ -1,10 +1,10 @@
-import Navegation from "../../components/Navegation/Navegation"
-import Card from "../../components/Cards/Card"
+import Navegation from "../../components/Navegation/navegation";
+import Card from "../../components/Cards/card"
 import { useState, useEffect, useContext } from "react"
-import Filter from "../../components/Filter/Filter"
+import Filter from "../../components/Filter/filter"
 import {charactersContext}  from '../../context';
 import { Fragment } from "react";
-import "./Characters.css"
+import "./characters.css"
 
 export default function Characters({pageName}) {
  let [data,setData]=useState([])

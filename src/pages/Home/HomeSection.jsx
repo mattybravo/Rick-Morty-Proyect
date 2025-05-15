@@ -1,5 +1,5 @@
-import ButtonsHome from "../../components/ButtonsHome/ButtonsHome"
-import "./Home.css"
+import ButtonsHome from "../../components/ButtonsHome/buttonsHome"
+import "./home.css"
 export default function HomeSection() {
  
     

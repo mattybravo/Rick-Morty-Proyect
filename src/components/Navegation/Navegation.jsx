@@ -1,5 +1,5 @@
-import "./Navegation.css"
-import { Link } from "react-router" 
+import "./navegation.css"
+import { Link } from 'react-router-dom';
 
 export default function Navegation({pageName}) {
   return(

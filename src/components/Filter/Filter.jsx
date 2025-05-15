@@ -1,4 +1,4 @@
-import "./Filter.css"
+import "./filter.css"
 export default function Filter({title,filtar}){
 
     return(
