@@ -1,4 +1,4 @@
-import Navegation from "../../components/Navegation/navegation";
+import Navegation from "../../components/Navegation/navigation";
 import "./contact.css";
 import { Fragment } from "react";
 export default function Contact() {

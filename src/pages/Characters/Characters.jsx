@@ -1,4 +1,4 @@
-import Navegation from "../../components/Navegation/navegation";
+import Navegation from "../../components/Navegation/navigation";
 import Card from "../../components/Cards/card"
 import { useState, useEffect, useContext } from "react"
 import Filter from "../../components/Filter/filter"
