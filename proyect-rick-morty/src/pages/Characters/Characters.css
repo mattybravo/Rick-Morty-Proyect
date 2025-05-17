@@ -1,0 +1,57 @@
+.h2-filter{
+color: #344d67;    
+}
+
+.filter{
+padding: 8px 48px;
+
+}
+
+.filter-escondido{
+border-radius: 15px;
+display: flex;
+justify-content: space-around;
+margin: 2px; 
+width: 80%;  
+background-color: #344d67;
+}
+
+form{
+    display: none;
+}
+
+.h2-filter{
+    display: none;
+}
+
+.h2-filter-escondido{
+color: #6eccaf;
+}
+/*MEDIA QUARYS*/
+
+@media(min-width:1039px){
+
+.form-escondido{
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 3px;    
+
+}
+
+.h2-filter{
+  display: block;  
+}
+
+.filter-escondido{
+
+display: none;
+    
+}
+
+form{
+    display: block;
+}
+
+}
