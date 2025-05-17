@@ -1,0 +1,60 @@
+
+.fondo-blanco{
+background-color: #ffffffe8;
+width: 600px;
+height: 600px;
+margin-top: 176px;
+}
+
+.h1-home{
+font-size: 40px;
+margin-top: 65px;
+color:#344d67;
+}
+
+.p-home-1{
+    margin-top: 33px;
+    color:#344d67; 
+}
+
+
+.p-home-2{
+margin-top: 20px;
+margin-bottom: 2px;
+color:#344d67;
+}
+
+.p-home-3{
+    color:#344d67;
+}
+
+.h2-home-1{
+    color: #344d67;
+margin-bottom: 20px;
+}
+
+.h2-home-2{
+color: #344d67;
+margin-top: 20px;
+
+}
+
+.buttonshome{
+    margin-top: 20px;
+} 
+
+
+/*MEDIA QUARYS*/
+
+@media(max-width: 800px){
+
+.h2-home-1{
+    color: #6eccaf;
+
+}
+
+.h2-home-2{
+    color: #6eccaf; 
+}
+
+}

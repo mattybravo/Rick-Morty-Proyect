@@ -1,0 +1,54 @@
+.fondo-trasparente{
+    background-color:rgba(92, 117, 146, .9);
+    width: 1100px;
+height: 700px;
+margin-top: 44px;
+}
+
+.h2-contact{
+    color: #223142;
+}
+
+.subt-1{
+margin-top: 30px; 
+color: #223142;   
+}
+
+.boton-div{
+
+margin-left: 220px;
+margin-top: 15px;
+}
+
+.btn-contact{
+color: #f5f5f5;
+padding: 6px 12px;
+background-color: #344d67;
+width: 55px;
+}
+
+.btn-contact:hover{
+color: #223142;
+background-color:#6eccaf;;
+}
+
+.input-form{
+width: 350px;
+
+}
+
+.text-area-contact{
+height: 4px;
+width:740px;
+    
+}
+.form-contact{
+    margin-top: 70px;
+}
+
+@media (max-width: 1039px){
+    .fondo-nav{
+        width: 100% !important;
+    
+    }
+}

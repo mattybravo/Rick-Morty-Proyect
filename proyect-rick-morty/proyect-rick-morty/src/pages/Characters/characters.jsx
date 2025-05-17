@@ -1,4 +1,4 @@
-import Navigation from "../../components/Navigation/Navigation";
+import Navegation from "../../components/Navegation/Navegation"
 import Card from "../../components/Cards/Card"
 import { useState, useEffect, useContext } from "react"
 import Filter from "../../components/Filter/Filter"
@@ -92,7 +92,7 @@ useEffect(()=>{
 
 return(
 <Fragment>
-<Navigation pageName={"Characters"}/>
+<Navegation pageName={"Characters"}/>
 
 <h2 className="container-fluid h2-filter mt-5">Filters</h2>
 <div className="container-full d-flex justify-content-center">

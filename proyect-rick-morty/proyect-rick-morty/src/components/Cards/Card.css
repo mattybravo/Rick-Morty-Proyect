@@ -4,7 +4,6 @@ width: fit-content;
 margin: 8px;
 padding: 8px;
 height: 460px;
-  overflow: visible;
 }
 
 .h2-card{
@@ -21,17 +20,10 @@ color: #223142;
 }
 
 .tarjeta-oculta{
-  top: 0;
-  left:100%; /* justo al lado derecho */
-  margin-left: 10px;
-  width: 300px;
-  background-color: #223142;
-  z-index: 10;
-  border-radius: 10px;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+background-color:  #223142;
+width: 370px; 
+height: fit-content;
+  
 }
 
 .p-info{
@@ -52,8 +44,6 @@ color: #223142;
  width: 36px;   
 height: 36px;
 background-color: #6eccaf;
-  align-self: flex-end;
-  margin-bottom: 8px;
 }
 
 .div-tarjeta{
@@ -71,33 +61,34 @@ cursor: pointer;
 
 /*MEDIA QUARYS*/
 
-@media(max-width:768px){
+@media(max-width:670px){
 
 
  
 .tarjeta{
-     flex-direction: column;
-    position: relative;
-    width: 310px;
-    height: auto;
     padding: 8px;
-    justify-content: start;
     align-items: start;
+    flex-direction: column;
+    height: 440px;
+    justify-content: start;
+    position: relative;
+    width: 310px;   
 
 }
 
 .tarjeta-oculta{
-      position: relative;
-    width: 100%;
-    margin-top: 10px; /* separación de la info */
-    left: 0;
-    background-color: #223142 ;
-    z-index: 1;
+    position: absolute;
+    z-index: 3;
+ margin-top: 100%;
+width: fit-content;
+
 }
 
 .bot{
 
- font-size: 0.8rem;
+position: relative;
+left: 50px;
+top: 30px;
 
 }
 
