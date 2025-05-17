@@ -72,7 +72,7 @@ background-color:#6eccaf;;
   width: 100%;
 }
 
-.form-label{
+.form-label-message{
 
 margin-right: 855px;
 
@@ -87,7 +87,7 @@ width:740px;
     margin-top: 70px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 944px) {
   .input-form,
   .text-area-contact {
     width: 100%;
@@ -101,6 +101,11 @@ width:740px;
     margin-top: 40px;
     padding: 0 15px;
   }
+
+.form-label-message{
+margin-right: 347px;
+
+}
 
   .boton-div {
     margin-top: 20px;

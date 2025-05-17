@@ -24,7 +24,7 @@ return(
     <input type="email" className="form-control input-form" id="inputPassword4"/>
   </div>
    <div className="col-12 col-md-12 d-flex flex-column align-items-center">
-  <label className="form-label text-center" htmlFor="message">Message</label>
+  <label className="form-label-message text-center" htmlFor="message">Message</label>
   <textarea
     className="form-control d-block mx-auto"
     id="message"
