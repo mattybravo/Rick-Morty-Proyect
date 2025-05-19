@@ -1,7 +1,7 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Characters from `./pages/Characters/Characters`;
-import Contact from './pages/Contact/Contact';
-import HomeSection from './pages/Home/HomeSection';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Characters from "./pages/Characters/Characters";
+import Contact from "./pages/Contact/Contact";
+import HomeSection from "./pages/Home/HomeSection";
 
 export default function RouterSite() {
   return (
