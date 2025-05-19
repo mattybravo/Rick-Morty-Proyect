@@ -1,5 +1,5 @@
 import Navigation from "../../components/Navigation/Navigation";
-import "./contact.css";
+import "./Contact.css";
 import { Fragment } from "react";
 export default function Contact() {
     
